@@ -1,7 +1,10 @@
-# 简介
+## 简介
 这是一个用来快速开发进行使用的模版
 
-# 技术
+## 构建
+Vite
+
+## 技术
 ```javascript
 Yarn
 Vue3
@@ -11,7 +14,6 @@ Taiwindcss
 Sass
 ```
 
-## 
 ## 进行使用
 
 ```javascript
