@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  filter: var(--grayscale); // 默哀设置
+  background: var(--background);
+  color: #000 !important;
+}
+
+#app {
+  /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Inter Medium';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+a {
+  color: var(--el-color-primary);
+}
+
+/*nprogress 样式覆盖*/
+#nprogress {
+  & .bar {
+    background-color: var(--el-color-primary) !important;
+  }
+
+  & .peg {
+    box-shadow: 0 0 10px var(--el-color-primary), 0 0 5px var(--el-color-primary) !important;
+  }
+
+  & .spinner-icon {
+    display: none;
+    border-top-color: var(--el-color-primary) !important;
+    border-left-color: var(--el-color-primary) !important;
+  }
+}
+
+.scrollbar-wrapper {
+  overflow-x: hidden !important;
+}
+
+.el-dialog__headerbtn .el-dialog__close {
+  color: black;
+}
+
